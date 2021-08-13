@@ -1,0 +1,34 @@
+.Menubar{
+  margin-top: -1%;
+  margin-left: -2%;
+  width: 103.5%;
+  height: 8rem;
+  background-color: #F29089;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Menubar li{
+  display: inline-block;
+  padding: 1rem;
+}
+
+button{
+  background-color: #3F7A63; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #48B37E;
+  color: #B4DABB; /* Green */
+}
